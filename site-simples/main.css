@@ -1,0 +1,44 @@
+body {
+    margin: 20px 50px;
+    padding: 10px;
+    position: relative
+}
+
+body  fieldset{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-auto-columns: 90%;
+    border-radius: 20px;
+    width: 100%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body h1 {
+    background-color: red;
+    width: 100%;
+
+}
+
+body h2 {
+    background-color: green;
+    width: 100%;
+
+}
+
+a img {
+    width: 5em;
+}
+
+.light-theme {
+    color: #000;
+    background: #a6f3a6
+
+}
+
+@media screen{
+    background-color:focus yellow;
+}
