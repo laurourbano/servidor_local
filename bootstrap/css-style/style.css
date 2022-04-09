@@ -2,4 +2,36 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font: 20px Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(33, 63, 63);
+}
+
+#pagina-inicial {
+    background-color: rgb(23, 116, 116);
+    color: white;
+}
+
+.margin {
+    padding: 10px 0 50px 0;
+}
+
+#cursos {
+    background-color: rgb(74, 116, 116);
+    color: white;
+}
+
+#experiencia {
+    background-color: rgb(23, 116, 116);
+    color: white;
+}
+
+footer {
+    background-color: rgb(33, 63, 63);
+}
+
+footer a {
+    color: white;
 }
