@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Bootstrap | Página Inicial</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="#">
-                <img src="" alt="">
-            </a>
-            <ul>
-                <li>
-                    <a href="#">Página Inicial</a>
-                </li>
-                <li>
-                    <a href="#">Cursos</a>
-                </li>
-                <li>
-                    <a href="#">Experiência</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-dark bg-dark">
+    <div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
         </nav>
     </header>
     <main>
@@ -37,8 +37,8 @@
     </footer>
 
     <?php
-    
-    ?>    
+
+    ?>
 
     <script src="main.js"></script>
 
@@ -50,5 +50,5 @@
 
 
 </body>
-</html>
 
+</html>
